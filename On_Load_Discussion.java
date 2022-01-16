@@ -48,7 +48,7 @@ def execute(){
       
   // Creates a for loop that will split the tempRoleMap string into individual strings, then it removes each of the individual strings or email adresses from the distribution list
   for (String tempStrng: tempRoleMap.split(",")) {
-	  setDistribution(tempStrng, Recipient.USER, Recipient.REMOVE, usersList); // Params: User Email, Type Of Recipient, ADD/REMOVE, listObject.
+	  setDistribution(tempStrng, Recipient.USER, Recipient.REMOVE, usersList);
   }
 
   // ADD/REMOVE ROLE                
