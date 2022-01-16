@@ -28,11 +28,11 @@ INSTALLATION
  
  1. Create a system task that executes a java script and paste the text from the On_Load_Discussion.java file. Name it "On_Load_Discussion"
 
- 2. Create a second trigger with the following values: 
+ 2. Create a trigger with the following values: 
 	- Name: On Load Discussion
 	- Conditions: *Folder where the discussion control will be applied*
 	- Event: Create Discussion
 	- Task Mode: Onload
-	- Task: Automatic Revision Control On Load
-
+	- Task: On_Load_Discussion
+	
 Congratulations! When creating a new dicussion on your document it should remove any users and roles from the distribution automatically. 
