@@ -12,7 +12,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-The distribution control will automatically remove users or roles from the distribution list on the comments section of a document. Once it is implemented, it will remove the user/roles even if they were manually added to a document.
+The distribution control will automatically remove users or roles from the distribution list on the discussion section of a document. Once it is implemented, it will remove the user/roles even if they were manually added to a document.
 
 REQUIREMENTS
 ------------
