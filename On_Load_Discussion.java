@@ -60,7 +60,6 @@ def execute(){
 
 
   // Set other options of create discussion screen                           
-  // ResponseJSON.add(IGroovyConstant.DESCRIPTION, addAttributes("true", "false", "Description From Groovy .."));    
   responseJSON.add(IGroovyConstant.MARK_AS_PRIVATE, addAttributes("false", "false", "true"));
   JsonObject distributionList = new JsonObject();   
   distributionList.add(Recipient.USER, usersList);
