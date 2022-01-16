@@ -1,5 +1,4 @@
 def execute(){ 
-  
   // Fetch current document details
   DocumentVO document = documentService.getDocumentDetails();  
   String tempRoleMap = "";
