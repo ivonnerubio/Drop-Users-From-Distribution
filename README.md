@@ -31,7 +31,7 @@ INSTALLATION
  2. Create a trigger with the following values: 
 	- Name: On Load Discussion
 	- Conditions: *Folder where the discussion control will be applied*
-	- Event: Create Discussion
+	- Event: Create Discussion 
 	- Task Mode: Onload
 	- Task: On_Load_Discussion
 	
